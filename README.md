@@ -40,7 +40,7 @@ The Mod Loader performs this operation. Follow these steps to install the Mod Lo
 
 ### Installing mods into the mods folder
 1. Create a folder called "mods" in the Peggle installation directory.  
-2. Place the mod's file(s) into the created folder. A mod file will usually have a `.dll` or `.asi` extension.
+2. Place the mod's file(s) into the created folder. A mod file will usually have a `.dll` or `.asi` extension. (usually you should also have `haggle-sdk.dll` in the mods folder but the `example-mod.dll` is standalone)
 3. Test that the mod has been installed correctly. 
    1. Launch Peggle, having already completed the [Installing the Mod Loader](#installing-the-mod-loader) step.
    2. In the Haggle Mod Loader window, the Mod Loader identifies which mods it loads.
