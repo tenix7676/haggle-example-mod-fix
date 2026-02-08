@@ -22,7 +22,7 @@ When Haggle mods are used with Peggle, they are loaded into the Peggle executabl
 The Mod Loader performs this operation. Follow these steps to install the Mod Loader.
 1. Obtain the Mod Loader `Haggle.exe` file:
    1. Download from the [Haggle Mod Loader Github releases page](https://github.com/PeggleCommunity/haggle-mod-loader/releases) or
-   2. Compile from the [`mod-loader` project files](https://github.com/PeggleCommunity/haggle-mod-loader/tree/main/src/). Refer to the [Compiling](#compiling) section for details.
+   2. Compile from the [mod-loader](https://github.com/PeggleCommunity/haggle-mod-loader/tree/main). Refer to the [Compiling](#compiling) section for details.
 2. Copy the `Haggle.exe` file into your game directory. For Steam, right click the game in your library, hover over "Manage", and click on "Browse local files".
 
 <details>
