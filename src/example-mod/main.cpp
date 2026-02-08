@@ -1,8 +1,10 @@
 #include <random>
 #include "sdk/SexySDK.hpp"
-#include "callbacks/callbacks.hpp"
+#include "sdk/Sexy/callbacks/callbacks.hpp"
 
 HMODULE self = 0;
+
+using namespace Sexy;
 
 void Example_Callbacks(void);
 void Example_AutoShoot(void);
@@ -10,7 +12,7 @@ void Example_AutoShoot(void);
 void init()
 {
 	// Example Mod stuff
-
+    callbacks::init();
 	Example_Callbacks();
 	Example_AutoShoot();
 }
